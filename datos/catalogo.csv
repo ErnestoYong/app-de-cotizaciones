@@ -1,0 +1,57 @@
+﻿id,fabricante,modelo,categoria,precio_compra_oficial_usd,estado_precio_compra,tarifa_renta_dia_usd,estado_tarifa_renta,unidad_cobro
+bm-atem-1me-4k,Blackmagic Design,ATEM 1 M/E Constellation 4K,Switcher,2135,consultado_por_confirmar,90,EJEMPLO,unidad
+bm-atem-2me-4k,Blackmagic Design,ATEM 2 M/E Constellation 4K,Switcher,4969,consultado_por_confirmar,200,EJEMPLO,unidad
+bm-atem-4me-4k,Blackmagic Design,ATEM 4 M/E Constellation 4K,Switcher,10515,consultado_por_confirmar,425,EJEMPLO,unidad
+bm-atem-tvs-hd8-iso,Blackmagic Design,ATEM Television Studio HD8 ISO,Switcher,3295,consultado_por_confirmar,135,EJEMPLO,unidad
+bm-atem-mini-extreme-iso-g2,Blackmagic Design,ATEM Mini Extreme ISO G2,Switcher,2245,consultado_por_confirmar,90,EJEMPLO,unidad
+bm-atem-mini-pro,Blackmagic Design,ATEM Mini Pro,Switcher,349,consultado_por_confirmar,15,EJEMPLO,unidad
+bm-panel-adv-10,Blackmagic Design,ATEM 1 M/E Advanced Panel 10,Panel de control,3695,consultado_por_confirmar,150,EJEMPLO,unidad
+bm-panel-adv-20,Blackmagic Design,ATEM 2 M/E Advanced Panel 20,Panel de control,7219,consultado_por_confirmar,290,EJEMPLO,unidad
+bm-ccu-panel,Blackmagic Design,ATEM Camera Control Panel,Panel de control,3425,consultado_por_confirmar,140,EJEMPLO,unidad
+bm-micro-cam-panel,Blackmagic Design,ATEM Micro Camera Panel,Panel de control,695,consultado_por_confirmar,30,EJEMPLO,unidad
+bm-studio-4k-plus-g2,Blackmagic Design,Blackmagic Studio Camera 4K Plus G2,Cámara,1555,consultado_por_confirmar,65,EJEMPLO,unidad
+bm-studio-4k-pro-g2,Blackmagic Design,Blackmagic Studio Camera 4K Pro G2,Cámara,2135,consultado_por_confirmar,90,EJEMPLO,unidad
+bm-studio-6k-pro,Blackmagic Design,Blackmagic Studio Camera 6K Pro,Cámara,2835,consultado_por_confirmar,115,EJEMPLO,unidad
+bm-ursa-broadcast-g2,Blackmagic Design,Blackmagic URSA Broadcast G2,Cámara,4925,consultado_por_confirmar,200,EJEMPLO,unidad
+bm-micro-studio-4k-g2,Blackmagic Design,Blackmagic Micro Studio Camera 4K G2,Cámara,1205,consultado_por_confirmar,50,EJEMPLO,unidad
+bm-ursa-viewfinder-g2,Blackmagic Design,Blackmagic URSA Studio Viewfinder G2,Accesorio de cámara,1745,consultado_por_confirmar,70,EJEMPLO,unidad
+bm-focus-demand,Blackmagic Design,Blackmagic Focus Demand,Accesorio de cámara,295,consultado_por_confirmar,15,EJEMPLO,unidad
+bm-zoom-demand,Blackmagic Design,Blackmagic Zoom Demand,Accesorio de cámara,289,consultado_por_confirmar,15,EJEMPLO,unidad
+bm-studio-fiber-conv,Blackmagic Design,Blackmagic Studio Fiber Converter,Fibra,3659,consultado_por_confirmar,150,EJEMPLO,unidad
+bm-camera-fiber-conv,Blackmagic Design,Blackmagic Camera Fiber Converter,Fibra,3575,consultado_por_confirmar,145,EJEMPLO,unidad
+bm-studio-converter,Blackmagic Design,Blackmagic Studio Converter,Fibra,1099,consultado_por_confirmar,45,EJEMPLO,unidad
+bm-hyperdeck-hd-plus,Blackmagic Design,HyperDeck Studio HD Plus,Grabador,795,consultado_por_confirmar,35,EJEMPLO,unidad
+bm-hyperdeck-4k-pro,Blackmagic Design,HyperDeck Studio 4K Pro,Grabador,1865,consultado_por_confirmar,75,EJEMPLO,unidad
+bm-hyperdeck-extreme-4k,Blackmagic Design,HyperDeck Extreme 4K HDR,Grabador,3415,consultado_por_confirmar,140,EJEMPLO,unidad
+bm-videohub-mini-8x4,Blackmagic Design,Blackmagic Videohub Mini 8x4 12G,Router,1215,consultado_por_confirmar,50,EJEMPLO,unidad
+bm-videohub-12g,Blackmagic Design,Blackmagic Videohub 12G,Router,1575,consultado_por_confirmar,65,EJEMPLO,unidad
+bm-mc-hdmi-sdi-3g,Blackmagic Design,Micro Converter HDMI to SDI 3G,Conversor,75,consultado_por_confirmar,5,EJEMPLO,unidad
+bm-mc-sdi-hdmi-3g,Blackmagic Design,Micro Converter SDI to HDMI 3G,Conversor,75,consultado_por_confirmar,5,EJEMPLO,unidad
+bm-mc-sdi-hdmi-12g,Blackmagic Design,Micro Converter SDI to HDMI 12G,Conversor,165,consultado_por_confirmar,10,EJEMPLO,unidad
+bm-mc-bidir-12g,Blackmagic Design,Micro Converter BiDirectional SDI/HDMI 12G,Conversor,189,consultado_por_confirmar,10,EJEMPLO,unidad
+bm-teranex-mini-sdi-hdmi-12g,Blackmagic Design,Teranex Mini SDI to HDMI 12G,Conversor,635,consultado_por_confirmar,30,EJEMPLO,unidad
+bm-smartview-4k-g3,Blackmagic Design,SmartView 4K G3,Monitor,1529,consultado_por_confirmar,65,EJEMPLO,unidad
+bm-ultimatte-12-4k,Blackmagic Design,Ultimatte 12 4K,Procesador,3115,consultado_por_confirmar,125,EJEMPLO,unidad
+bm-2110-conv-3x3g,Blackmagic Design,Blackmagic 2110 IP Converter 3x3G,IP 2110,675,consultado_por_confirmar,30,EJEMPLO,unidad
+gen-led-p39-m2,Genérico (ejemplo),Pantalla LED P3.9 (por m²),Pantalla LED,,no_aplica,45,EJEMPLO,m²
+gen-led-p26-m2,Genérico (ejemplo),Pantalla LED P2.6 interior (por m²),Pantalla LED,,no_aplica,60,EJEMPLO,m²
+gen-led-procesador,Genérico (ejemplo),Procesador de video LED,Pantalla LED,,no_aplica,120,EJEMPLO,unidad
+gen-tv-75,Genérico (ejemplo),"Pantalla 75"" 4K con pedestal",Monitor,,no_aplica,85,EJEMPLO,unidad
+gen-consola-audio-32,Genérico (ejemplo),Consola de audio digital 32 canales,Audio,,no_aplica,250,EJEMPLO,unidad
+gen-bocina-line-array,Genérico (ejemplo),Caja line array activa,Audio,,no_aplica,95,EJEMPLO,unidad
+gen-subwoofer,Genérico (ejemplo),"Subwoofer activo 18""",Audio,,no_aplica,70,EJEMPLO,unidad
+gen-monitor-piso,Genérico (ejemplo),Monitor de piso activo,Audio,,no_aplica,35,EJEMPLO,unidad
+gen-mic-inalambrico,Genérico (ejemplo),Micrófono inalámbrico de mano,Audio,,no_aplica,40,EJEMPLO,unidad
+gen-intercom-4,Genérico (ejemplo),Sistema de intercom (base + 4 beltpacks),Audio,,no_aplica,180,EJEMPLO,unidad
+gen-truss-cuadrado-3m,Genérico (ejemplo),"Truss cuadrado 30 cm, tramo de 3 m",Truss,,no_aplica,25,EJEMPLO,unidad
+gen-truss-base,Genérico (ejemplo),Base y top para torre de truss,Truss,,no_aplica,15,EJEMPLO,unidad
+gen-motor-1t,Genérico (ejemplo),Motor eléctrico de cadena 1 t,Truss,,no_aplica,60,EJEMPLO,unidad
+gen-tripode-video,Genérico (ejemplo),Trípode de video con cabeza fluida,Soporte,,no_aplica,35,EJEMPLO,unidad
+gen-rack-flightcase,Genérico (ejemplo),Rack flight case 12U,Soporte,,no_aplica,30,EJEMPLO,unidad
+gen-cable-sdi-50,Genérico (ejemplo),Cable SDI 12G 50 m,Cableado,,no_aplica,15,EJEMPLO,unidad
+gen-cable-sdi-10,Genérico (ejemplo),Cable SDI 12G 10 m,Cableado,,no_aplica,5,EJEMPLO,unidad
+gen-cable-hdmi-5,Genérico (ejemplo),Cable HDMI 2.0 5 m,Cableado,,no_aplica,4,EJEMPLO,unidad
+gen-fibra-smpte-100,Genérico (ejemplo),Cable de fibra SMPTE 311 100 m (carrete),Cableado,,no_aplica,60,EJEMPLO,unidad
+gen-cable-xlr-15,Genérico (ejemplo),Cable XLR 15 m,Cableado,,no_aplica,3,EJEMPLO,unidad
+gen-cat6-50,Genérico (ejemplo),Cable Cat6 50 m,Cableado,,no_aplica,5,EJEMPLO,unidad
+gen-distro-energia,Genérico (ejemplo),Distribuidor de energía trifásico 63 A,Energía,,no_aplica,80,EJEMPLO,unidad

@@ -1,0 +1,1697 @@
+{
+  "version": 1,
+  "moneda": "USD",
+  "actualizado": "2026-10-17",
+  "aviso": "Las tarifas de renta son VALORES DE EJEMPLO, no tarifas reales. El precio oficial de compra es solo de referencia y no se usa en la cotización.",
+  "regla_renta_ejemplo": "Blackmagic: aprox. 4% del precio oficial de compra por día, redondeado a múltiplos de 5 USD.",
+  "equipos": [
+    {
+      "id": "bm-atem-1me-4k",
+      "fabricante": "Blackmagic Design",
+      "modelo": "ATEM 1 M/E Constellation 4K",
+      "categoria": "Switcher",
+      "precio_compra_oficial_usd": 2135,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 90,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 10
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 6
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.48,
+        "alto": 0.09,
+        "profundidad": 0.3
+      },
+      "forma_3d": "rack",
+      "notas": ""
+    },
+    {
+      "id": "bm-atem-2me-4k",
+      "fabricante": "Blackmagic Design",
+      "modelo": "ATEM 2 M/E Constellation 4K",
+      "categoria": "Switcher",
+      "precio_compra_oficial_usd": 4969,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 200,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 20
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 12
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.48,
+        "alto": 0.09,
+        "profundidad": 0.3
+      },
+      "forma_3d": "rack",
+      "notas": ""
+    },
+    {
+      "id": "bm-atem-4me-4k",
+      "fabricante": "Blackmagic Design",
+      "modelo": "ATEM 4 M/E Constellation 4K",
+      "categoria": "Switcher",
+      "precio_compra_oficial_usd": 10515,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 425,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 40
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 24
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.48,
+        "alto": 0.13,
+        "profundidad": 0.3
+      },
+      "forma_3d": "rack",
+      "notas": ""
+    },
+    {
+      "id": "bm-atem-tvs-hd8-iso",
+      "fabricante": "Blackmagic Design",
+      "modelo": "ATEM Television Studio HD8 ISO",
+      "categoria": "Switcher",
+      "precio_compra_oficial_usd": 3295,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 135,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "SDI 3G",
+          "cantidad": 8
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "SDI 3G",
+          "cantidad": 2
+        },
+        {
+          "tipo": "HDMI",
+          "cantidad": 1
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.48,
+        "alto": 0.13,
+        "profundidad": 0.25
+      },
+      "forma_3d": "consola",
+      "notas": ""
+    },
+    {
+      "id": "bm-atem-mini-extreme-iso-g2",
+      "fabricante": "Blackmagic Design",
+      "modelo": "ATEM Mini Extreme ISO G2",
+      "categoria": "Switcher",
+      "precio_compra_oficial_usd": 2245,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 90,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "HDMI",
+          "cantidad": 8
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "HDMI",
+          "cantidad": 2
+        },
+        {
+          "tipo": "SDI 3G",
+          "cantidad": 1
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.4,
+        "alto": 0.05,
+        "profundidad": 0.18
+      },
+      "forma_3d": "consola",
+      "notas": ""
+    },
+    {
+      "id": "bm-atem-mini-pro",
+      "fabricante": "Blackmagic Design",
+      "modelo": "ATEM Mini Pro",
+      "categoria": "Switcher",
+      "precio_compra_oficial_usd": 349,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 15,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "HDMI",
+          "cantidad": 4
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "HDMI",
+          "cantidad": 1
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.24,
+        "alto": 0.04,
+        "profundidad": 0.1
+      },
+      "forma_3d": "consola",
+      "notas": ""
+    },
+    {
+      "id": "bm-panel-adv-10",
+      "fabricante": "Blackmagic Design",
+      "modelo": "ATEM 1 M/E Advanced Panel 10",
+      "categoria": "Panel de control",
+      "precio_compra_oficial_usd": 3695,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 150,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "Ethernet",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 0.68,
+        "alto": 0.12,
+        "profundidad": 0.3
+      },
+      "forma_3d": "consola",
+      "notas": ""
+    },
+    {
+      "id": "bm-panel-adv-20",
+      "fabricante": "Blackmagic Design",
+      "modelo": "ATEM 2 M/E Advanced Panel 20",
+      "categoria": "Panel de control",
+      "precio_compra_oficial_usd": 7219,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 290,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "Ethernet",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 0.9,
+        "alto": 0.14,
+        "profundidad": 0.42
+      },
+      "forma_3d": "consola",
+      "notas": ""
+    },
+    {
+      "id": "bm-ccu-panel",
+      "fabricante": "Blackmagic Design",
+      "modelo": "ATEM Camera Control Panel",
+      "categoria": "Panel de control",
+      "precio_compra_oficial_usd": 3425,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 140,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "Ethernet",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 0.8,
+        "alto": 0.1,
+        "profundidad": 0.3
+      },
+      "forma_3d": "consola",
+      "notas": ""
+    },
+    {
+      "id": "bm-micro-cam-panel",
+      "fabricante": "Blackmagic Design",
+      "modelo": "ATEM Micro Camera Panel",
+      "categoria": "Panel de control",
+      "precio_compra_oficial_usd": 695,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 30,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "USB/Ethernet",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 0.4,
+        "alto": 0.08,
+        "profundidad": 0.2
+      },
+      "forma_3d": "consola",
+      "notas": ""
+    },
+    {
+      "id": "bm-studio-4k-plus-g2",
+      "fabricante": "Blackmagic Design",
+      "modelo": "Blackmagic Studio Camera 4K Plus G2",
+      "categoria": "Cámara",
+      "precio_compra_oficial_usd": 1555,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 65,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [],
+      "salidas": [
+        {
+          "tipo": "HDMI",
+          "cantidad": 1
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.22,
+        "alto": 0.16,
+        "profundidad": 0.12
+      },
+      "forma_3d": "camara",
+      "notas": ""
+    },
+    {
+      "id": "bm-studio-4k-pro-g2",
+      "fabricante": "Blackmagic Design",
+      "modelo": "Blackmagic Studio Camera 4K Pro G2",
+      "categoria": "Cámara",
+      "precio_compra_oficial_usd": 2135,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 90,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 1
+        },
+        {
+          "tipo": "Ethernet",
+          "cantidad": 1
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.22,
+        "alto": 0.16,
+        "profundidad": 0.12
+      },
+      "forma_3d": "camara",
+      "notas": ""
+    },
+    {
+      "id": "bm-studio-6k-pro",
+      "fabricante": "Blackmagic Design",
+      "modelo": "Blackmagic Studio Camera 6K Pro",
+      "categoria": "Cámara",
+      "precio_compra_oficial_usd": 2835,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 115,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 1
+        },
+        {
+          "tipo": "Ethernet",
+          "cantidad": 1
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.22,
+        "alto": 0.16,
+        "profundidad": 0.14
+      },
+      "forma_3d": "camara",
+      "notas": ""
+    },
+    {
+      "id": "bm-ursa-broadcast-g2",
+      "fabricante": "Blackmagic Design",
+      "modelo": "Blackmagic URSA Broadcast G2",
+      "categoria": "Cámara",
+      "precio_compra_oficial_usd": 4925,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 200,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 2
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.15,
+        "alto": 0.2,
+        "profundidad": 0.4
+      },
+      "forma_3d": "camara",
+      "notas": ""
+    },
+    {
+      "id": "bm-micro-studio-4k-g2",
+      "fabricante": "Blackmagic Design",
+      "modelo": "Blackmagic Micro Studio Camera 4K G2",
+      "categoria": "Cámara",
+      "precio_compra_oficial_usd": 1205,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 50,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "SDI 3G",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 1
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.08,
+        "alto": 0.07,
+        "profundidad": 0.07
+      },
+      "forma_3d": "camara",
+      "notas": ""
+    },
+    {
+      "id": "bm-ursa-viewfinder-g2",
+      "fabricante": "Blackmagic Design",
+      "modelo": "Blackmagic URSA Studio Viewfinder G2",
+      "categoria": "Accesorio de cámara",
+      "precio_compra_oficial_usd": 1745,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 70,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "SDI",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 0.2,
+        "alto": 0.15,
+        "profundidad": 0.15
+      },
+      "forma_3d": "caja",
+      "notas": ""
+    },
+    {
+      "id": "bm-focus-demand",
+      "fabricante": "Blackmagic Design",
+      "modelo": "Blackmagic Focus Demand",
+      "categoria": "Accesorio de cámara",
+      "precio_compra_oficial_usd": 295,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 15,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 0.15,
+        "alto": 0.05,
+        "profundidad": 0.05
+      },
+      "forma_3d": "caja",
+      "notas": ""
+    },
+    {
+      "id": "bm-zoom-demand",
+      "fabricante": "Blackmagic Design",
+      "modelo": "Blackmagic Zoom Demand",
+      "categoria": "Accesorio de cámara",
+      "precio_compra_oficial_usd": 289,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 15,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 0.15,
+        "alto": 0.05,
+        "profundidad": 0.05
+      },
+      "forma_3d": "caja",
+      "notas": ""
+    },
+    {
+      "id": "bm-studio-fiber-conv",
+      "fabricante": "Blackmagic Design",
+      "modelo": "Blackmagic Studio Fiber Converter",
+      "categoria": "Fibra",
+      "precio_compra_oficial_usd": 3659,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 150,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "Fibra SMPTE",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 2
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.48,
+        "alto": 0.09,
+        "profundidad": 0.3
+      },
+      "forma_3d": "rack",
+      "notas": ""
+    },
+    {
+      "id": "bm-camera-fiber-conv",
+      "fabricante": "Blackmagic Design",
+      "modelo": "Blackmagic Camera Fiber Converter",
+      "categoria": "Fibra",
+      "precio_compra_oficial_usd": 3575,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 145,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "Fibra SMPTE",
+          "cantidad": 1
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.15,
+        "alto": 0.1,
+        "profundidad": 0.25
+      },
+      "forma_3d": "caja",
+      "notas": ""
+    },
+    {
+      "id": "bm-studio-converter",
+      "fabricante": "Blackmagic Design",
+      "modelo": "Blackmagic Studio Converter",
+      "categoria": "Fibra",
+      "precio_compra_oficial_usd": 1099,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 45,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 2
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 2
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.48,
+        "alto": 0.05,
+        "profundidad": 0.25
+      },
+      "forma_3d": "rack",
+      "notas": ""
+    },
+    {
+      "id": "bm-hyperdeck-hd-plus",
+      "fabricante": "Blackmagic Design",
+      "modelo": "HyperDeck Studio HD Plus",
+      "categoria": "Grabador",
+      "precio_compra_oficial_usd": 795,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 35,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "SDI 3G",
+          "cantidad": 1
+        },
+        {
+          "tipo": "HDMI",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "SDI 3G",
+          "cantidad": 1
+        },
+        {
+          "tipo": "HDMI",
+          "cantidad": 1
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.48,
+        "alto": 0.04,
+        "profundidad": 0.15
+      },
+      "forma_3d": "rack",
+      "notas": ""
+    },
+    {
+      "id": "bm-hyperdeck-4k-pro",
+      "fabricante": "Blackmagic Design",
+      "modelo": "HyperDeck Studio 4K Pro",
+      "categoria": "Grabador",
+      "precio_compra_oficial_usd": 1865,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 75,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 2
+        },
+        {
+          "tipo": "HDMI",
+          "cantidad": 1
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.48,
+        "alto": 0.04,
+        "profundidad": 0.2
+      },
+      "forma_3d": "rack",
+      "notas": ""
+    },
+    {
+      "id": "bm-hyperdeck-extreme-4k",
+      "fabricante": "Blackmagic Design",
+      "modelo": "HyperDeck Extreme 4K HDR",
+      "categoria": "Grabador",
+      "precio_compra_oficial_usd": 3415,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 140,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 2
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.48,
+        "alto": 0.13,
+        "profundidad": 0.3
+      },
+      "forma_3d": "rack",
+      "notas": ""
+    },
+    {
+      "id": "bm-videohub-mini-8x4",
+      "fabricante": "Blackmagic Design",
+      "modelo": "Blackmagic Videohub Mini 8x4 12G",
+      "categoria": "Router",
+      "precio_compra_oficial_usd": 1215,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 50,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 8
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 4
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.48,
+        "alto": 0.04,
+        "profundidad": 0.15
+      },
+      "forma_3d": "rack",
+      "notas": ""
+    },
+    {
+      "id": "bm-videohub-12g",
+      "fabricante": "Blackmagic Design",
+      "modelo": "Blackmagic Videohub 12G",
+      "categoria": "Router",
+      "precio_compra_oficial_usd": 1575,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 65,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 20
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 20
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.48,
+        "alto": 0.09,
+        "profundidad": 0.25
+      },
+      "forma_3d": "rack",
+      "notas": ""
+    },
+    {
+      "id": "bm-mc-hdmi-sdi-3g",
+      "fabricante": "Blackmagic Design",
+      "modelo": "Micro Converter HDMI to SDI 3G",
+      "categoria": "Conversor",
+      "precio_compra_oficial_usd": 75,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 5,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "HDMI",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "SDI 3G",
+          "cantidad": 1
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.08,
+        "alto": 0.02,
+        "profundidad": 0.06
+      },
+      "forma_3d": "caja",
+      "notas": ""
+    },
+    {
+      "id": "bm-mc-sdi-hdmi-3g",
+      "fabricante": "Blackmagic Design",
+      "modelo": "Micro Converter SDI to HDMI 3G",
+      "categoria": "Conversor",
+      "precio_compra_oficial_usd": 75,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 5,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "SDI 3G",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "HDMI",
+          "cantidad": 1
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.08,
+        "alto": 0.02,
+        "profundidad": 0.06
+      },
+      "forma_3d": "caja",
+      "notas": ""
+    },
+    {
+      "id": "bm-mc-sdi-hdmi-12g",
+      "fabricante": "Blackmagic Design",
+      "modelo": "Micro Converter SDI to HDMI 12G",
+      "categoria": "Conversor",
+      "precio_compra_oficial_usd": 165,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 10,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "HDMI",
+          "cantidad": 1
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.08,
+        "alto": 0.02,
+        "profundidad": 0.06
+      },
+      "forma_3d": "caja",
+      "notas": ""
+    },
+    {
+      "id": "bm-mc-bidir-12g",
+      "fabricante": "Blackmagic Design",
+      "modelo": "Micro Converter BiDirectional SDI/HDMI 12G",
+      "categoria": "Conversor",
+      "precio_compra_oficial_usd": 189,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 10,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 1
+        },
+        {
+          "tipo": "HDMI",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 1
+        },
+        {
+          "tipo": "HDMI",
+          "cantidad": 1
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.08,
+        "alto": 0.02,
+        "profundidad": 0.06
+      },
+      "forma_3d": "caja",
+      "notas": ""
+    },
+    {
+      "id": "bm-teranex-mini-sdi-hdmi-12g",
+      "fabricante": "Blackmagic Design",
+      "modelo": "Teranex Mini SDI to HDMI 12G",
+      "categoria": "Conversor",
+      "precio_compra_oficial_usd": 635,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 30,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "HDMI",
+          "cantidad": 1
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.1,
+        "alto": 0.04,
+        "profundidad": 0.15
+      },
+      "forma_3d": "caja",
+      "notas": ""
+    },
+    {
+      "id": "bm-smartview-4k-g3",
+      "fabricante": "Blackmagic Design",
+      "modelo": "SmartView 4K G3",
+      "categoria": "Monitor",
+      "precio_compra_oficial_usd": 1529,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 65,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 2
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 1
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.4,
+        "alto": 0.27,
+        "profundidad": 0.05
+      },
+      "forma_3d": "monitor",
+      "notas": ""
+    },
+    {
+      "id": "bm-ultimatte-12-4k",
+      "fabricante": "Blackmagic Design",
+      "modelo": "Ultimatte 12 4K",
+      "categoria": "Procesador",
+      "precio_compra_oficial_usd": 3115,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 125,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 4
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 2
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.48,
+        "alto": 0.04,
+        "profundidad": 0.25
+      },
+      "forma_3d": "rack",
+      "notas": ""
+    },
+    {
+      "id": "bm-2110-conv-3x3g",
+      "fabricante": "Blackmagic Design",
+      "modelo": "Blackmagic 2110 IP Converter 3x3G",
+      "categoria": "IP 2110",
+      "precio_compra_oficial_usd": 675,
+      "precio_compra_fuente": "https://www.blackmagicdesign.com/products",
+      "precio_compra_fecha": "2026-10-17",
+      "precio_compra_estado": "consultado_por_confirmar",
+      "tarifa_renta_dia_usd": 30,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "SDI 3G",
+          "cantidad": 3
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "Ethernet 10G",
+          "cantidad": 1
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.1,
+        "alto": 0.04,
+        "profundidad": 0.15
+      },
+      "forma_3d": "caja",
+      "notas": ""
+    },
+    {
+      "id": "gen-led-p39-m2",
+      "fabricante": "Genérico (ejemplo)",
+      "modelo": "Pantalla LED P3.9 (por m²)",
+      "categoria": "Pantalla LED",
+      "precio_compra_oficial_usd": null,
+      "precio_compra_fuente": null,
+      "precio_compra_fecha": null,
+      "precio_compra_estado": "no_aplica",
+      "tarifa_renta_dia_usd": 45,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "m²",
+      "entradas": [
+        {
+          "tipo": "Video HDMI/SDI",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 1.0,
+        "alto": 1.0,
+        "profundidad": 0.1
+      },
+      "forma_3d": "pantalla",
+      "notas": "Equipo genérico con datos ficticios."
+    },
+    {
+      "id": "gen-led-p26-m2",
+      "fabricante": "Genérico (ejemplo)",
+      "modelo": "Pantalla LED P2.6 interior (por m²)",
+      "categoria": "Pantalla LED",
+      "precio_compra_oficial_usd": null,
+      "precio_compra_fuente": null,
+      "precio_compra_fecha": null,
+      "precio_compra_estado": "no_aplica",
+      "tarifa_renta_dia_usd": 60,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "m²",
+      "entradas": [
+        {
+          "tipo": "Video HDMI/SDI",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 1.0,
+        "alto": 1.0,
+        "profundidad": 0.1
+      },
+      "forma_3d": "pantalla",
+      "notas": "Equipo genérico con datos ficticios."
+    },
+    {
+      "id": "gen-led-procesador",
+      "fabricante": "Genérico (ejemplo)",
+      "modelo": "Procesador de video LED",
+      "categoria": "Pantalla LED",
+      "precio_compra_oficial_usd": null,
+      "precio_compra_fuente": null,
+      "precio_compra_fecha": null,
+      "precio_compra_estado": "no_aplica",
+      "tarifa_renta_dia_usd": 120,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "HDMI",
+          "cantidad": 2
+        },
+        {
+          "tipo": "SDI 12G",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "Ethernet LED",
+          "cantidad": 8
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.48,
+        "alto": 0.09,
+        "profundidad": 0.3
+      },
+      "forma_3d": "rack",
+      "notas": "Equipo genérico con datos ficticios."
+    },
+    {
+      "id": "gen-tv-75",
+      "fabricante": "Genérico (ejemplo)",
+      "modelo": "Pantalla 75\" 4K con pedestal",
+      "categoria": "Monitor",
+      "precio_compra_oficial_usd": null,
+      "precio_compra_fuente": null,
+      "precio_compra_fecha": null,
+      "precio_compra_estado": "no_aplica",
+      "tarifa_renta_dia_usd": 85,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "HDMI",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 1.68,
+        "alto": 1.0,
+        "profundidad": 0.1
+      },
+      "forma_3d": "pantalla",
+      "notas": "Equipo genérico con datos ficticios."
+    },
+    {
+      "id": "gen-consola-audio-32",
+      "fabricante": "Genérico (ejemplo)",
+      "modelo": "Consola de audio digital 32 canales",
+      "categoria": "Audio",
+      "precio_compra_oficial_usd": null,
+      "precio_compra_fuente": null,
+      "precio_compra_fecha": null,
+      "precio_compra_estado": "no_aplica",
+      "tarifa_renta_dia_usd": 250,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "Audio analógico/AES",
+          "cantidad": 32
+        }
+      ],
+      "salidas": [
+        {
+          "tipo": "Audio analógico/AES",
+          "cantidad": 16
+        },
+        {
+          "tipo": "SDI embebido",
+          "cantidad": 1
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.9,
+        "alto": 0.2,
+        "profundidad": 0.6
+      },
+      "forma_3d": "consola",
+      "notas": "Equipo genérico con datos ficticios."
+    },
+    {
+      "id": "gen-bocina-line-array",
+      "fabricante": "Genérico (ejemplo)",
+      "modelo": "Caja line array activa",
+      "categoria": "Audio",
+      "precio_compra_oficial_usd": null,
+      "precio_compra_fuente": null,
+      "precio_compra_fecha": null,
+      "precio_compra_estado": "no_aplica",
+      "tarifa_renta_dia_usd": 95,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "Audio XLR",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 0.6,
+        "alto": 0.3,
+        "profundidad": 0.45
+      },
+      "forma_3d": "bocina",
+      "notas": "Equipo genérico con datos ficticios."
+    },
+    {
+      "id": "gen-subwoofer",
+      "fabricante": "Genérico (ejemplo)",
+      "modelo": "Subwoofer activo 18\"",
+      "categoria": "Audio",
+      "precio_compra_oficial_usd": null,
+      "precio_compra_fuente": null,
+      "precio_compra_fecha": null,
+      "precio_compra_estado": "no_aplica",
+      "tarifa_renta_dia_usd": 70,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "Audio XLR",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 0.6,
+        "alto": 0.7,
+        "profundidad": 0.8
+      },
+      "forma_3d": "bocina",
+      "notas": "Equipo genérico con datos ficticios."
+    },
+    {
+      "id": "gen-monitor-piso",
+      "fabricante": "Genérico (ejemplo)",
+      "modelo": "Monitor de piso activo",
+      "categoria": "Audio",
+      "precio_compra_oficial_usd": null,
+      "precio_compra_fuente": null,
+      "precio_compra_fecha": null,
+      "precio_compra_estado": "no_aplica",
+      "tarifa_renta_dia_usd": 35,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [
+        {
+          "tipo": "Audio XLR",
+          "cantidad": 1
+        }
+      ],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 0.5,
+        "alto": 0.3,
+        "profundidad": 0.4
+      },
+      "forma_3d": "bocina",
+      "notas": "Equipo genérico con datos ficticios."
+    },
+    {
+      "id": "gen-mic-inalambrico",
+      "fabricante": "Genérico (ejemplo)",
+      "modelo": "Micrófono inalámbrico de mano",
+      "categoria": "Audio",
+      "precio_compra_oficial_usd": null,
+      "precio_compra_fuente": null,
+      "precio_compra_fecha": null,
+      "precio_compra_estado": "no_aplica",
+      "tarifa_renta_dia_usd": 40,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [],
+      "salidas": [
+        {
+          "tipo": "Audio XLR",
+          "cantidad": 1
+        }
+      ],
+      "medidas_m": {
+        "ancho": 0.05,
+        "alto": 0.25,
+        "profundidad": 0.05
+      },
+      "forma_3d": "caja",
+      "notas": "Equipo genérico con datos ficticios."
+    },
+    {
+      "id": "gen-intercom-4",
+      "fabricante": "Genérico (ejemplo)",
+      "modelo": "Sistema de intercom (base + 4 beltpacks)",
+      "categoria": "Audio",
+      "precio_compra_oficial_usd": null,
+      "precio_compra_fuente": null,
+      "precio_compra_fecha": null,
+      "precio_compra_estado": "no_aplica",
+      "tarifa_renta_dia_usd": 180,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 0.48,
+        "alto": 0.09,
+        "profundidad": 0.25
+      },
+      "forma_3d": "rack",
+      "notas": "Equipo genérico con datos ficticios."
+    },
+    {
+      "id": "gen-truss-cuadrado-3m",
+      "fabricante": "Genérico (ejemplo)",
+      "modelo": "Truss cuadrado 30 cm, tramo de 3 m",
+      "categoria": "Truss",
+      "precio_compra_oficial_usd": null,
+      "precio_compra_fuente": null,
+      "precio_compra_fecha": null,
+      "precio_compra_estado": "no_aplica",
+      "tarifa_renta_dia_usd": 25,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 3.0,
+        "alto": 0.3,
+        "profundidad": 0.3
+      },
+      "forma_3d": "truss",
+      "notas": "Equipo genérico con datos ficticios."
+    },
+    {
+      "id": "gen-truss-base",
+      "fabricante": "Genérico (ejemplo)",
+      "modelo": "Base y top para torre de truss",
+      "categoria": "Truss",
+      "precio_compra_oficial_usd": null,
+      "precio_compra_fuente": null,
+      "precio_compra_fecha": null,
+      "precio_compra_estado": "no_aplica",
+      "tarifa_renta_dia_usd": 15,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 0.8,
+        "alto": 0.05,
+        "profundidad": 0.8
+      },
+      "forma_3d": "caja",
+      "notas": "Equipo genérico con datos ficticios."
+    },
+    {
+      "id": "gen-motor-1t",
+      "fabricante": "Genérico (ejemplo)",
+      "modelo": "Motor eléctrico de cadena 1 t",
+      "categoria": "Truss",
+      "precio_compra_oficial_usd": null,
+      "precio_compra_fuente": null,
+      "precio_compra_fecha": null,
+      "precio_compra_estado": "no_aplica",
+      "tarifa_renta_dia_usd": 60,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 0.3,
+        "alto": 0.4,
+        "profundidad": 0.3
+      },
+      "forma_3d": "caja",
+      "notas": "Equipo genérico con datos ficticios."
+    },
+    {
+      "id": "gen-tripode-video",
+      "fabricante": "Genérico (ejemplo)",
+      "modelo": "Trípode de video con cabeza fluida",
+      "categoria": "Soporte",
+      "precio_compra_oficial_usd": null,
+      "precio_compra_fuente": null,
+      "precio_compra_fecha": null,
+      "precio_compra_estado": "no_aplica",
+      "tarifa_renta_dia_usd": 35,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 0.6,
+        "alto": 1.5,
+        "profundidad": 0.6
+      },
+      "forma_3d": "tripode",
+      "notas": "Equipo genérico con datos ficticios."
+    },
+    {
+      "id": "gen-rack-flightcase",
+      "fabricante": "Genérico (ejemplo)",
+      "modelo": "Rack flight case 12U",
+      "categoria": "Soporte",
+      "precio_compra_oficial_usd": null,
+      "precio_compra_fuente": null,
+      "precio_compra_fecha": null,
+      "precio_compra_estado": "no_aplica",
+      "tarifa_renta_dia_usd": 30,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 0.6,
+        "alto": 0.7,
+        "profundidad": 0.6
+      },
+      "forma_3d": "caja",
+      "notas": "Equipo genérico con datos ficticios."
+    },
+    {
+      "id": "gen-cable-sdi-50",
+      "fabricante": "Genérico (ejemplo)",
+      "modelo": "Cable SDI 12G 50 m",
+      "categoria": "Cableado",
+      "precio_compra_oficial_usd": null,
+      "precio_compra_fuente": null,
+      "precio_compra_fecha": null,
+      "precio_compra_estado": "no_aplica",
+      "tarifa_renta_dia_usd": 15,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 0.3,
+        "alto": 0.1,
+        "profundidad": 0.3
+      },
+      "forma_3d": "caja",
+      "notas": "Equipo genérico con datos ficticios."
+    },
+    {
+      "id": "gen-cable-sdi-10",
+      "fabricante": "Genérico (ejemplo)",
+      "modelo": "Cable SDI 12G 10 m",
+      "categoria": "Cableado",
+      "precio_compra_oficial_usd": null,
+      "precio_compra_fuente": null,
+      "precio_compra_fecha": null,
+      "precio_compra_estado": "no_aplica",
+      "tarifa_renta_dia_usd": 5,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 0.2,
+        "alto": 0.05,
+        "profundidad": 0.2
+      },
+      "forma_3d": "caja",
+      "notas": "Equipo genérico con datos ficticios."
+    },
+    {
+      "id": "gen-cable-hdmi-5",
+      "fabricante": "Genérico (ejemplo)",
+      "modelo": "Cable HDMI 2.0 5 m",
+      "categoria": "Cableado",
+      "precio_compra_oficial_usd": null,
+      "precio_compra_fuente": null,
+      "precio_compra_fecha": null,
+      "precio_compra_estado": "no_aplica",
+      "tarifa_renta_dia_usd": 4,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 0.2,
+        "alto": 0.05,
+        "profundidad": 0.2
+      },
+      "forma_3d": "caja",
+      "notas": "Equipo genérico con datos ficticios."
+    },
+    {
+      "id": "gen-fibra-smpte-100",
+      "fabricante": "Genérico (ejemplo)",
+      "modelo": "Cable de fibra SMPTE 311 100 m (carrete)",
+      "categoria": "Cableado",
+      "precio_compra_oficial_usd": null,
+      "precio_compra_fuente": null,
+      "precio_compra_fecha": null,
+      "precio_compra_estado": "no_aplica",
+      "tarifa_renta_dia_usd": 60,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 0.5,
+        "alto": 0.5,
+        "profundidad": 0.3
+      },
+      "forma_3d": "caja",
+      "notas": "Equipo genérico con datos ficticios."
+    },
+    {
+      "id": "gen-cable-xlr-15",
+      "fabricante": "Genérico (ejemplo)",
+      "modelo": "Cable XLR 15 m",
+      "categoria": "Cableado",
+      "precio_compra_oficial_usd": null,
+      "precio_compra_fuente": null,
+      "precio_compra_fecha": null,
+      "precio_compra_estado": "no_aplica",
+      "tarifa_renta_dia_usd": 3,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 0.2,
+        "alto": 0.05,
+        "profundidad": 0.2
+      },
+      "forma_3d": "caja",
+      "notas": "Equipo genérico con datos ficticios."
+    },
+    {
+      "id": "gen-cat6-50",
+      "fabricante": "Genérico (ejemplo)",
+      "modelo": "Cable Cat6 50 m",
+      "categoria": "Cableado",
+      "precio_compra_oficial_usd": null,
+      "precio_compra_fuente": null,
+      "precio_compra_fecha": null,
+      "precio_compra_estado": "no_aplica",
+      "tarifa_renta_dia_usd": 5,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 0.3,
+        "alto": 0.1,
+        "profundidad": 0.3
+      },
+      "forma_3d": "caja",
+      "notas": "Equipo genérico con datos ficticios."
+    },
+    {
+      "id": "gen-distro-energia",
+      "fabricante": "Genérico (ejemplo)",
+      "modelo": "Distribuidor de energía trifásico 63 A",
+      "categoria": "Energía",
+      "precio_compra_oficial_usd": null,
+      "precio_compra_fuente": null,
+      "precio_compra_fecha": null,
+      "precio_compra_estado": "no_aplica",
+      "tarifa_renta_dia_usd": 80,
+      "tarifa_renta_estado": "ejemplo",
+      "unidad_cobro": "unidad",
+      "entradas": [],
+      "salidas": [],
+      "medidas_m": {
+        "ancho": 0.5,
+        "alto": 0.4,
+        "profundidad": 0.3
+      },
+      "forma_3d": "caja",
+      "notas": "Equipo genérico con datos ficticios."
+    }
+  ],
+  "personal": [
+    {
+      "id": "productor",
+      "rol": "Productor técnico",
+      "tarifa_jornada_usd": 350,
+      "tarifa_estado": "ejemplo"
+    },
+    {
+      "id": "director",
+      "rol": "Director de cámaras",
+      "tarifa_jornada_usd": 300,
+      "tarifa_estado": "ejemplo"
+    },
+    {
+      "id": "camarografo",
+      "rol": "Camarógrafo",
+      "tarifa_jornada_usd": 180,
+      "tarifa_estado": "ejemplo"
+    },
+    {
+      "id": "ccu",
+      "rol": "Operador de control de cámaras (CCU)",
+      "tarifa_jornada_usd": 200,
+      "tarifa_estado": "ejemplo"
+    },
+    {
+      "id": "switcher",
+      "rol": "Operador de switcher (TD)",
+      "tarifa_jornada_usd": 220,
+      "tarifa_estado": "ejemplo"
+    },
+    {
+      "id": "audio",
+      "rol": "Ingeniero de audio",
+      "tarifa_jornada_usd": 220,
+      "tarifa_estado": "ejemplo"
+    },
+    {
+      "id": "led",
+      "rol": "Técnico LED",
+      "tarifa_jornada_usd": 160,
+      "tarifa_estado": "ejemplo"
+    },
+    {
+      "id": "rigger",
+      "rol": "Rigger",
+      "tarifa_jornada_usd": 170,
+      "tarifa_estado": "ejemplo"
+    },
+    {
+      "id": "asistente",
+      "rol": "Asistente técnico / cableado",
+      "tarifa_jornada_usd": 110,
+      "tarifa_estado": "ejemplo"
+    },
+    {
+      "id": "grabacion",
+      "rol": "Operador de grabación y repetición",
+      "tarifa_jornada_usd": 180,
+      "tarifa_estado": "ejemplo"
+    }
+  ],
+  "impuesto": {
+    "nombre": "Impuesto",
+    "tasa": null,
+    "nota": "Por definir. No se asume ninguna tasa."
+  }
+}

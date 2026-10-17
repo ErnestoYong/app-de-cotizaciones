@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "id": "ejemplo-concierto-salon",
+  "nombre": "Concierto en salón (EJEMPLO)",
+  "cliente": { "nombre": "Cliente de ejemplo", "contacto": "" },
+  "fechas": { "montaje": "2026-11-20", "evento": "2026-11-21", "desmontaje": "2026-11-21" },
+  "dias_renta": 2,
+  "moneda": "USD",
+  "impuesto": { "nombre": "Impuesto", "tasa": null },
+  "recinto": {
+    "tipo": "generico",
+    "plantilla": "salon",
+    "medidas_m": { "ancho": 30, "largo": 50, "alto": 10 },
+    "plano": {
+      "archivo": null,
+      "formato": null,
+      "escala_m_por_pixel": null,
+      "origen": { "x": 0, "y": 0 },
+      "rotacion_grados": 0,
+      "nota": "Reservado para subir planos reales del venue (imagen o PDF a escala, luego DXF)."
+    },
+    "zonas": [
+      { "id": "escenario", "nombre": "Escenario", "x": 0, "z": -20, "ancho": 12, "largo": 6, "alto": 1.2 },
+      { "id": "foh", "nombre": "Control (FOH)", "x": 0, "z": 12, "ancho": 6, "largo": 4, "alto": 0 }
+    ]
+  },
+  "elementos": [
+    { "id": "cam1", "equipo_id": "bm-ursa-broadcast-g2", "etiqueta": "CAM 1 (central)", "posicion": { "x": 0, "y": 1.6, "z": 10 }, "rotacion_y": 180, "cantidad": 1 },
+    { "id": "cam2", "equipo_id": "bm-studio-4k-pro-g2", "etiqueta": "CAM 2 (izquierda)", "posicion": { "x": -10, "y": 1.6, "z": -10 }, "rotacion_y": 135, "cantidad": 1 },
+    { "id": "sw1", "equipo_id": "bm-atem-tvs-hd8-iso", "etiqueta": "Switcher", "posicion": { "x": 0, "y": 0.8, "z": 12 }, "rotacion_y": 0, "cantidad": 1 },
+    { "id": "led1", "equipo_id": "gen-led-p39-m2", "etiqueta": "Pantalla central 6×3 m", "posicion": { "x": 0, "y": 4, "z": -23 }, "rotacion_y": 0, "cantidad": 18, "medidas_m": { "ancho": 6, "alto": 3 } }
+  ],
+  "lineas_extra": [
+    { "equipo_id": "gen-cable-sdi-50", "cantidad": 4 }
+  ],
+  "ajustes_tarifa": [
+    { "equipo_id": "bm-ursa-broadcast-g2", "tarifa_renta_dia_usd": 180, "motivo": "Ejemplo de tarifa ajustada solo para este proyecto" }
+  ],
+  "conexiones": [
+    { "desde": "cam1", "salida": "SDI 12G", "hacia": "sw1", "entrada": "SDI 3G" },
+    { "desde": "cam2", "salida": "SDI 12G", "hacia": "sw1", "entrada": "SDI 3G" },
+    { "desde": "sw1", "salida": "HDMI", "hacia": "led1", "entrada": "Video HDMI/SDI" }
+  ],
+  "personal": [
+    { "rol_id": "productor", "cantidad": 1, "jornadas": 2 },
+    { "rol_id": "camarografo", "cantidad": 2, "jornadas": 1 },
+    { "rol_id": "switcher", "cantidad": 1, "jornadas": 1 }
+  ],
+  "cronograma": [
+    { "tarea": "Llegada de equipo y descarga", "inicio": "2026-11-20T08:00", "fin": "2026-11-20T10:00", "responsable": "asistente" },
+    { "tarea": "Montaje de truss y pantalla LED", "inicio": "2026-11-20T10:00", "fin": "2026-11-20T16:00", "responsable": "led" },
+    { "tarea": "Pruebas de señal", "inicio": "2026-11-21T09:00", "fin": "2026-11-21T12:00", "responsable": "productor" },
+    { "tarea": "Evento", "inicio": "2026-11-21T19:00", "fin": "2026-11-21T23:00", "responsable": "productor" },
+    { "tarea": "Desmontaje", "inicio": "2026-11-21T23:00", "fin": "2026-11-22T03:00", "responsable": "asistente" }
+  ]
+}
