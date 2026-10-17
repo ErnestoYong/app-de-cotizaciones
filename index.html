@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>App de cotizaciones</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "./vendor/three/build/three.module.js",
+        "three/addons/": "./vendor/three/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <header class="barra">
+    <div class="marca">
+      <span class="logo" aria-hidden="true">▣</span>
+      <div>
+        <div class="titulo" id="titulo-proyecto">Cargando…</div>
+        <div class="subtitulo">Total <span id="total-barra">—</span></div>
+      </div>
+    </div>
+    <div class="acciones-barra">
+      <button class="btn" id="btn-nuevo">Nuevo</button>
+      <button class="btn" id="btn-ejemplo">Ejemplo</button>
+      <button class="btn" id="btn-importar">Abrir archivo</button>
+      <button class="btn" id="btn-exportar">Guardar archivo</button>
+      <input type="file" id="archivo-importar" accept="application/json,.json" hidden>
+      <button class="btn primario" id="btn-presentar">Presentar</button>
+    </div>
+  </header>
+
+  <main class="area">
+    <aside class="lateral">
+      <nav class="pestanas" role="tablist">
+        <button class="pestana activa" data-destino="tab-catalogo">Catálogo</button>
+        <button class="pestana" data-destino="tab-proyecto">Proyecto</button>
+        <button class="pestana" data-destino="tab-cotizacion">Cotización</button>
+      </nav>
+
+      <section class="contenido-pestana" id="tab-catalogo">
+        <div class="filtros">
+          <input id="buscar" type="search" placeholder="Buscar equipo…">
+          <select id="filtro-categoria"><option value="">Todas las categorías</option></select>
+        </div>
+        <ul id="lista-catalogo" class="lista-catalogo"></ul>
+      </section>
+
+      <section class="contenido-pestana" id="tab-proyecto" hidden>
+        <form id="form-proyecto" onsubmit="return false">
+          <label>Nombre del proyecto<input id="p-nombre"></label>
+          <label>Cliente<input id="p-cliente"></label>
+          <div class="fila">
+            <label>Fecha del evento<input id="p-evento" type="date"></label>
+            <label>Días de renta<input id="p-dias" type="number" min="1" step="1"></label>
+          </div>
+          <label>Impuesto (%)<input id="p-tasa" type="number" min="0" step="0.01" placeholder="Por definir"></label>
+          <fieldset>
+            <legend>Recinto</legend>
+            <label>Tipo de recinto
+              <select id="p-plantilla">
+                <option value="salon">Salón de eventos</option>
+                <option value="auditorio">Auditorio / centro de convenciones</option>
+                <option value="estadio">Estadio</option>
+              </select>
+            </label>
+            <div class="fila tres">
+              <label>Ancho (m)<input id="p-ancho" type="number" min="5" step="1"></label>
+              <label>Largo (m)<input id="p-largo" type="number" min="5" step="1"></label>
+              <label>Alto (m)<input id="p-alto" type="number" min="3" step="1"></label>
+            </div>
+            <p class="nota">Subir planos reales del venue llegará en una versión posterior.</p>
+          </fieldset>
+        </form>
+      </section>
+
+      <section class="contenido-pestana" id="tab-cotizacion" hidden>
+        <div id="tabla-cotizacion" class="cotizacion"></div>
+      </section>
+    </aside>
+
+    <section class="escenario-3d">
+      <div id="visor" class="visor"></div>
+      <div class="herramientas-vista">
+        <button class="btn pequeno" data-vista="general">General</button>
+        <button class="btn pequeno" data-vista="planta">Planta</button>
+        <button class="btn pequeno" data-vista="publico">Público</button>
+        <button class="btn pequeno" data-vista="escenario">Escenario</button>
+        <button class="btn pequeno" id="btn-etiquetas" aria-pressed="true">Etiquetas</button>
+      </div>
+      <div id="panel-seleccion" class="panel-seleccion" hidden></div>
+
+      <div class="cartel-presentacion">
+        <div>
+          <div class="pres-nombre" id="pres-nombre"></div>
+          <div class="pres-cliente" id="pres-cliente"></div>
+        </div>
+        <div class="pres-derecha">
+          <div class="pres-total-etq">Inversión estimada</div>
+          <div class="pres-total" id="pres-total"></div>
+          <div class="pres-ejemplo" id="pres-ejemplo">Precios de ejemplo</div>
+        </div>
+        <button class="btn" id="btn-salir-pres">Salir</button>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

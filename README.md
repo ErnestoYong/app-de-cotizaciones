@@ -4,6 +4,18 @@ Herramienta interna para presentar eventos en vivo en 3D. Incluye diagrama de se
 
 > Todo en esta carpeta usa **datos y precios ficticios**. No hay información de clientes reales.
 
+## Cómo se usa
+
+1. Abre la app (en GitHub Pages, o en tu computadora con `python3 -m http.server` dentro de esta carpeta, y luego entra a http://localhost:8000).
+2. **Catálogo:** busca un equipo y pulsa *Agregar*. Aparece en el centro del recinto.
+3. **En la escena:** haz clic en un equipo para editarlo y arrástralo para moverlo. Puedes cambiar unidades, medidas de LED, altura, giro y tarifa del proyecto.
+4. **Proyecto:** pon el nombre, el cliente, los días de renta, el impuesto (déjalo vacío si está por definir) y el tipo y medidas del recinto.
+5. **Cotización:** se calcula sola con tarifa diaria × días × unidades.
+6. **Presentar:** muestra la escena a pantalla completa con el nombre del proyecto y el total. Sales con *Esc*.
+7. **Guardar archivo / Abrir archivo:** el proyecto se guarda solo en el navegador. Exporta un archivo `.json` para tener respaldo o cambiar de computadora.
+
+three.js (licencia MIT) va incluido en `vendor/`, así la app no depende de internet para cargar el 3D.
+
 ## Datos (paso 1)
 
 | Archivo | Para qué sirve |
